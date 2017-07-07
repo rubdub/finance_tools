@@ -31,8 +31,8 @@ count = 0
 
 price = []
 count = 1
-for strike_price in range(13,17):
-    price.append(quoteOption('LAST','AMD','C',170804, strike_price))
+for strike_price in range(13, 17):
+    price.append(quoteOption('LAST', 'AMD', 'C', 170804, strike_price))
     # count = count + 1
 
 print(price)
